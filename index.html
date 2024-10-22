@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Course Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Neon Course Management</h1>
+
+        <!-- Campo de busca -->
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search by course ID or name">
+            <button id="search-btn" class="neon-btn">Search</button>
+        </div>
+
+        <!-- Lista de cursos -->
+        <h2>Available Courses</h2>
+        <ul id="course-list" class="course-list"></ul>
+
+        <!-- Formulário para adicionar novo curso -->
+        <h2>Add a New Course</h2>
+        <form id="course-form">
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Course Name" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="description" name="description" placeholder="Course Description" required>
+            </div>
+            <button type="submit" class="neon-btn">Add Course</button>
+        </form>
+
+        <!-- Campo para deletar curso -->
+        <h2>Delete a Course by ID</h2>
+        <div class="delete-container">
+            <input type="text" id="delete-id" placeholder="Enter Course ID">
+            <button id="delete-btn" class="neon-btn">Delete Course</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

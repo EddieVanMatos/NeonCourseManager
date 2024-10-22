@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+    color: #fff;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #00ffff;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00ffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #00ffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #00f;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+
+.neon-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #00ffff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    text-transform: uppercase;
+}
+
+.neon-btn:hover {
+    background-color: #00f;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+
+.course-list {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.course-list li {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #00ffff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
